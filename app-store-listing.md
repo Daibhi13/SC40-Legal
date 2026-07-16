@@ -77,8 +77,8 @@ SUBSCRIPTION
 
 Sprint Coach Pro is £1.99/month (or local equivalent) with a 14-day free trial. Subscription auto-renews monthly unless cancelled at least 24 hours before the end of the current period. Manage or cancel anytime in your Apple ID account settings. Any unused portion of the free trial is forfeited upon subscribing.
 
-Terms of Service: https://github.com/Daibhi13/SC40/blob/main/docs/terms-of-service.html
-Privacy Policy: https://github.com/Daibhi13/SC40/blob/main/docs/privacy-policy.html
+Terms of Service: https://daibhi13.github.io/SC40-Legal/terms-of-service.html
+Privacy Policy: https://daibhi13.github.io/SC40-Legal/sc40-sprint-coach-privacy-policy.html
 
 ---
 
@@ -89,13 +89,13 @@ Version 1.0 — Initial release.
 ---
 
 ## Support URL
-https://github.com/Daibhi13/SC40
+https://daibhi13.github.io/SC40-Legal/sc40-sprint-coach-support.html
 
 ## Privacy Policy URL
-https://github.com/Daibhi13/SC40/blob/main/docs/privacy-policy.html
+https://daibhi13.github.io/SC40-Legal/sc40-sprint-coach-privacy-policy.html
 
 ## Terms of Service URL
-https://github.com/Daibhi13/SC40/blob/main/docs/terms-of-service.html
+https://daibhi13.github.io/SC40-Legal/terms-of-service.html
 
 ---
 
