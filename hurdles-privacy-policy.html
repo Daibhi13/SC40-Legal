@@ -26,16 +26,19 @@
     <p class="updated">Last updated: July 2026</p>
 
     <h2>Data Collection</h2>
-    <p>Hurdles Coach collects workout data that you manually enter, including hurdle times, drill entries, stride data, and training sessions. The app does not access location, camera, microphone, HealthKit, accelerometer, or any other device sensors. All data is entered manually by you.</p>
+    <p>Hurdles Coach collects workout data that you manually enter, including hurdle times, drill entries, stride data, and training sessions. The app optionally requests location access to fetch weather conditions (temperature, wind speed, humidity) for your training sessions. If granted, your GPS coordinates are stored with the workout session and sent to a weather API service to retrieve conditions. Location is only accessed when you create a new session and can be skipped by entering a location name manually. No HealthKit data, camera, microphone, or other device sensor data is accessed.</p>
 
     <h2>Data Storage</h2>
-    <p>Your workout data is stored locally on your device using Apple's SwiftData framework. No workout data is sent to external servers or cloud services. All data remains private on your device.</p>
+    <p>Your workout data is stored locally on your device using Apple's SwiftData framework. User profile data is stored in UserDefaults. No workout data is sent to external servers or cloud services. When location-based weather fetch is used, your GPS coordinates are stored on-device with the workout session for map display in session detail, and are sent to the Open-Meteo weather API to retrieve conditions — this data is used only for the weather request and is not shared with any other party.</p>
 
     <h2>Data Sharing</h2>
     <p>We do not share your personal data with third parties. All your workout data remains private on your device. The Share Performance feature generates an image or file that you choose to share — no data is transmitted automatically.</p>
 
-    <h2>No Location or Sensor Access</h2>
-    <p>Hurdles Coach does not request or access location data, HealthKit, camera, microphone, accelerometer, or any other device sensors. All hurdle times and workout data are manually entered by you.</p>
+    <h2>Location Access</h2>
+    <p>Hurdles Coach may request location access (NSLocationWhenInUseUsageDescription) to automatically fetch weather conditions for your training sessions. Location access is optional — you can decline and enter a location name manually. When used, your GPS coordinates are stored on your device with the workout session for map display in session detail, and are sent to the Open-Meteo weather API to retrieve temperature, wind, and humidity data. Your location is not shared with any other third party and is never transmitted except for the one-time weather request.</p>
+
+    <h2>No HealthKit or Sensor Access</h2>
+    <p>Hurdles Coach does not access HealthKit, camera, microphone, accelerometer, or any other device sensors. All hurdle times and workout data are manually entered by you.</p>
 
     <h2>Notifications</h2>
     <p>If you enable workout reminders, Hurdles Coach uses local notifications on your device to remind you to log your sessions. These notifications are processed entirely on-device and are not sent from any server.</p>

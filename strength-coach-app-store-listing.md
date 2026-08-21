@@ -21,7 +21,7 @@ strength,workout,log,training,gym,lift,1rm,volume,fitness,weights
 ---
 
 ## Promotional Text (170 chars max)
-Log strength workouts, track volume and estimated 1RM, and see per-exercise trends. 14-day free trial — try all Pro features.
+Log strength workouts, track volume and estimated 1RM, and see per-exercise trends. 1-week free trial — try all Pro features.
 
 ---
 
@@ -43,7 +43,7 @@ Volume and estimated 1RM are calculated automatically as you log. See per-exerci
 Browse every session you've saved. Tap any session to see the full breakdown of exercises, sets, reps, weight and total volume.
 
 • Trends & Analytics (Pro)
-Unlock per-exercise trend charts, estimated 1RM tracking, volume and RPE analysis, and shareable performance reports. Try Pro free for 14 days.
+Unlock per-exercise trend charts, estimated 1RM tracking, volume and RPE analysis, and shareable performance reports. Try Pro free for 1 week.
 
 • Apple Health
 Optionally save strength workouts to Apple Health with one tap.
@@ -56,11 +56,11 @@ WHY STRENGTH COACH ANALYSIS?
 • Your workout data stays on your device — no cloud, no tracking, no third-party sharing.
 • Works offline for core workout logging.
 • No account, login or subscription required for the workout log.
-• 14-day free trial — try every Pro feature before subscribing.
+• 1-week free trial — try every Pro feature before subscribing.
 
 SUBSCRIPTION
 
-Strength Coach Pro is £1.99/month (or local equivalent) with a 14-day free trial. Subscription auto-renews monthly unless cancelled at least 24 hours before the end of the current period. Manage or cancel anytime in your Apple ID account settings.
+Strength Coach Pro is £1.99/month (or local equivalent) with a 1-week free trial. Subscription auto-renews monthly unless cancelled at least 24 hours before the end of the current period. Manage or cancel anytime in your Apple ID account settings.
 
 Terms of Service: https://daibhi13.github.io/SC40-Legal/terms-of-service.html
 Privacy Policy: https://daibhi13.github.io/SC40-Legal/strength-privacy-policy.html
@@ -93,7 +93,7 @@ Strength Coach Analysis is a manual strength-training log. It does not use Healt
 1. Launch the app and complete onboarding (name, weight unit, optional athlete profile, safety warning, notification permission).
 2. Tap New Session, choose an exercise, and add one or more sets with reps, weight and RPE.
 3. Tap Save Session and go to History to view the saved session.
-4. Go to Trends/Analytics to view per-exercise charts (available during the 14-day Pro trial).
+4. Go to Trends/Analytics to view per-exercise charts (available during the 1-week Pro trial).
 5. Tap the Pro banner or Upgrade in the More tab to view the paywall.
 6. In More → Help & Info and Settings, verify Privacy Policy, Terms and Support links are accessible.
 
