@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Recovery Coach Analysis</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #fafafa;
+        }
+        h1 { font-size: 28px; color: #111; }
+        h2 { font-size: 20px; color: #333; margin-top: 32px; }
+        p { color: #444; }
+        .updated { color: #888; font-size: 14px; margin-bottom: 32px; }
+        .footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid #ddd; color: #999; font-size: 13px; }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: September 2026</p>
+
+    <h2>Data Collection</h2>
+    <p>Recovery Coach Analysis reads health data from Apple Health (HealthKit), specifically heart rate variability (HRV/RMSSD), resting heart rate, and sleep data. This data is used to compute a daily Readiness Score and track your recovery trend. The app also reads workout data from HealthKit to correlate your training sessions with your readiness. No health data is written back to HealthKit by this app.</p>
+
+    <h2>Data Storage</h2>
+    <p>Your readiness data, HRV samples, resting heart rate, sleep summaries, and subjective check-in responses are stored locally on your device using Apple's SwiftData framework. User profile data (name, age, sex) is stored in UserDefaults. If you enable iCloud sync, your data may also be stored in your private iCloud account via CloudKit.</p>
+
+    <h2>Linked Viewer Sharing (CloudKit)</h2>
+    <p>If you choose to link a coach or parent, Recovery Coach Analysis uses Apple's CloudKit Sharing (CKShare) to share your readiness data with that person. This sharing is <strong>explicitly opt-in</strong> — it is never enabled by default. Linked viewers receive read-only access to your Readiness Score, trend charts, and training-load correlation. They cannot log, edit, or delete your data. You can revoke access at any time from the "Linked Devices" screen, and the revocation takes effect immediately.</p>
+
+    <h2>HealthKit Data</h2>
+    <p>Recovery Coach Analysis requests read-only access to the following HealthKit data types:</p>
+    <ul>
+        <li>Heart Rate Variability (HRV/RMSSD) — used as the primary signal for the Readiness Score</li>
+        <li>Resting Heart Rate — used as a secondary signal</li>
+        <li>Sleep Analysis — used to factor sleep quality into the Readiness Score</li>
+        <li>Workouts (HKWorkout) — used to correlate training sessions with readiness</li>
+    </ul>
+    <p>HealthKit data never leaves your device or iCloud account except through the explicit Linked Viewer sharing described above. We do not send your health data to any external server, analytics service, or third party.</p>
+
+    <h2>No External Servers</h2>
+    <p>Recovery Coach Analysis does not use any external servers, analytics services, or third-party APIs. All data processing happens on your device. The only cloud service used is Apple's CloudKit, and only for the Linked Viewer feature that you explicitly enable.</p>
+
+    <h2>Subscription</h2>
+    <p>Recovery Coach Analysis offers an optional monthly subscription ("Recovery Coach Pro") processed by Apple through your Apple ID. Subscription billing and management are handled entirely by Apple. We do not collect or store any payment information.</p>
+
+    <h2>Data Retention</h2>
+    <p>Your data is retained on your device until you delete it. Uninstalling the app will delete all locally stored data. Data synced to iCloud via CloudKit will remain in your iCloud account until you delete it. If you revoke a linked viewer's access, they will immediately lose access to your data, though previously cached data on their device may persist until their app refreshes.</p>
+
+    <h2>Your Rights</h2>
+    <p>You have full control over your data. You can reset all data from the app's Settings screen. You can manage HealthKit access from your device's Settings > Privacy > Health. You can manage iCloud access from your device's Settings > [Your Name] > iCloud.</p>
+
+    <h2>Not a Medical Device</h2>
+    <p>Recovery Coach Analysis is a training recovery tool, not a medical device. The Readiness Score is for informational and coaching purposes only. It does not diagnose, treat, or assess any medical condition. Always consult a qualified medical professional for health concerns.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>Recovery Coach Analysis is not directed at children under 13. We do not knowingly collect data from children under 13. If you believe a child has provided personal information, please contact us so we can delete it.</p>
+
+    <h2>Contact</h2>
+    <p>If you have questions about this privacy policy or your data, contact us at support@accel-8.com.</p>
+
+    <div class="footer">
+        <p>Recovery Coach Analysis — Privacy Policy — September 2026</p>
+    </div>
+</body>
+</html>
